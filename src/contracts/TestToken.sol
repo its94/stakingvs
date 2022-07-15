@@ -3,10 +3,10 @@ pragma solidity ^0.5.0;
 //Erc 20 test token
 
 contract TestToken {
-    string  public name = "TestToken";
-    string  public symbol = "Tst";
-    uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens
-    uint8   public decimals = 18;
+    string  public name = "VMeta Center *Tesnet*";
+    string  public symbol = "VRMC";
+    uint256 public totalSupply = 100000000000000000000000000000000000; // 1 million tokens
+    uint8   public decimals = 8;
 
     event Transfer(
         address indexed _from,
